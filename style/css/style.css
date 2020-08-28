@@ -13,7 +13,7 @@ a:hover {
 }
 
 body {
-  background-color: #ddd;
+  background-color: rgb(255, 255, 255);
 }
 
 /*
@@ -48,11 +48,11 @@ body {
 }
 
 /*
- * Carousel
+ * Carousel 
  */
 .carousel {
   margin-top: 4rem;
-  margin-bottom: 4rem;
+  /* margin-bottom: 4rem; */
 }
 
 /* Since positioning the image, we need to help out the caption */
@@ -68,3 +68,27 @@ body {
   background-size: cover;
   background-position: center;
 }
+
+/*
+ * Tentang Kami 
+ */
+.about {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.about-item {
+bottom: 3rem;
+z-index: 10;
+}
+
+.about-item .about-caption  {
+  font-family: sans-serif;
+}
+
+.about-item .about-caption .itemhead {
+font-family: 'Raleway', sans-serif;
+font-size: 2.5rem;
+letter-spacing: -1.5px;
+border-bottom-color: rgba(255, 255, 255, 0.25);
+ }
